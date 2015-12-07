@@ -1,0 +1,28 @@
+THESIS DATABASE v1.0 
+
+THESIS DATABASE v1.0 is an android application developed by Kevin Jeff T. Cepria. A Computer engineering student at De La Salle University-Taft, Manila, Philippines. THESIS DATABASE's database originated from the conversion of the following file types; a google->excel->.csv->SQLite. It is a program that initially displays the informations of the ongoing and completed theses by CPE and ECE students of De La Salle University-Taft, Manila, Philippines from year 2010 to 2015. The theses themselves are not shown in this program due to some theses are still ongoing and the completed theses papers cannot be acquired unless permission is granted to the developer to share them. Another additional feature is that users can create an Adminisitrator account to manage the database. The user can add, edit, and delete theses in the database when logged in as the administrator. The program is not limited to the initialized 161 theses. Therefore the user can delete all the initialized 161 theses and add his/her own theses to create his/her own collection. Thesis Database shows details of each thesis such as authors,advisers, panelists, acadmeic year, and etc. THESIS DATABASE was made for academic purposes only and was not made or requested to be made by De La Salle University. 
+
+
+FEATURES:
+- Additonal Features: add, edit, and delete thesis when logged in as administrator
+- Displays details of a thesis such as authors, panelists, chair of panelists, status
+  adviser, academic, and etc.
+- Ongoing and completed theses by CPE and ECE students of
+  De La Salle University-Taft, Manila, Philippines
+- SQLite database of Thesis (TOTAL OF 161 THESES)
+- Search option to focus on each element of a thesis
+
+WARNINGS:
+- If the data for this app is cleared through any means (ex. via application manager), the program will reset to the original 161 theses. All theses added will be   deleted and all the deleted theses among the original 161 will be restored. Edited theses among the 161 original theses will restore their original informations. 
+  
+SUPPORT INFORMATION:
+-THESIS DATABASE is developed by Kevin Jeff T. Cepria.
+-Some changes and features will be added on the next update
+
+Kevin Jeff T. Cepria
+Phone: (+63)935-551-3413
+Email: kevin_cepria@dlsu.edu.ph
+
+ACKNOWLEDGEMENT
+I, Kevin Jeff T. Cepria, would like to thank Engr. Melvin Cabatuan of the 
+Gokongwei College of Engineering and Communications Engineering Department of De La Salle University-Taft, Manila for sharing his knowledge and giving me guidance in developing THESIS DATABASE 

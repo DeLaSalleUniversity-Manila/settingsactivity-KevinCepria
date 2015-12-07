@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thesis Database</string>
+
+    <string name="action_about">ABOUT</string>
+    <string name="action_administrator">ADMINISTRATOR</string>
+    <string name="action_Help">Help</string>
+    <string name="Thesis_Categories">THESIS CATEGORIES</string>
+    <string name="thesisdatabase">THESIS DATABASE</string>
+    <string name="administrator">ADMINISTRATOR LOGIN</string>
+
+
+</resources>

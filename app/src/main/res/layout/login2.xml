@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:weightSum="1">
+    <TextView android:text="@string/administrator" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:id="@+id/textViewAd"
+        android:textSize="20sp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip"
+        android:background="@drawable/mybackground2">
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:text="ADD THESIS"
+            android:id="@+id/addthesis"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/experiment2"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:text="EDIT THESIS"
+            android:id="@+id/editthesis"
+            android:layout_marginTop="30dp"
+            android:layout_above="@+id/addthesis"
+            android:background="@drawable/experiment2"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:text="DELETE THESIS"
+            android:id="@+id/deletethesis"
+            android:layout_marginTop="30dp"
+            android:layout_above="@+id/editthesis"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/experiment2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:id="@+id/logout"
+            android:layout_marginTop="30dp"
+            android:layout_above="@+id/deletethesis"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/experiment2"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

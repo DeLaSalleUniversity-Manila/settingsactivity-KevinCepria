@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:paddingTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/mybullet2"
+        android:textColor="@android:color/white"
+        android:background="@drawable/experiment4"
+
+
+
+        />
+
+</LinearLayout>
